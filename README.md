@@ -2,6 +2,8 @@ Given the following CFG, create a Predictive Parsing table and write a program t
 
 CFG:
 
+S --> a=E
+
 E --> E+T
 
 E --> E-T
@@ -17,3 +19,5 @@ T --> F
 F --> (E)
 
 F --> a
+
+F --> b
